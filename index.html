@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-portafolio">
+            <div class="container-fluid navegacion">
+                <!-- En la siguiente linea debo usar una etiqueta img para poner el logo-->
+                <a class="navbar-nav"><img src="img/logo.png" width="340px" height="200px" alt="logo"></a>
+
+                <!-- Boton que aparece en los dispositivos moviles-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--Contenedor item menu-->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#Inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Services">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#About_me">Sobre mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contacto">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+          
+        </nav>
+        <div class="container">
+            <h2></h2>
+            <div class="container">
+                <!--Antes de crear columnas deemos crear las filas la cuales en bootstrap son la clase row-->
+                <div class="row">
+                    <!--Creacion de columnas-->
+                    <article class="col-md-6 presentacion">
+                        <a name="Inicio"></a>
+                        <h2 style="color:white">Soy Javier Avendaño</h2>
+                        <p style="color:white">
+                            Soy un desarrollador junior Fron-End y Back-End independiente transformando a empresas y
+                            apoyando a estudiantes.
+                        </p>
+
+                    </article>
+                    <article class="col-md-6 text-center">
+
+                        <img src="img/foto_personal1.png" data-aos="zoom-in-down" data-aos-duration="1000">alt="Foto personal">
+
+                    </article>
+
+                </div>
+            </div>
+            <!--Antes d ecrear columnas debeos crear las filas las cuales en bootstrap son la clase row-->
+        </div>
+
+        
+    </header>
+    <main>
+
+        <section id="Services">
+            <div class="container text-center">
+            <!--Antes de crear columnas deemos crear las filas la cuales en bootstrap son la clase row-->
+            <div class="row">
+                <a name="Services"></a>
+                <!--Creacion de columnas-->
+                <h2>Servicios</h2>
+
+                <article class="col-md-4">
+
+                    <img src="img/Front_End.png" width="240px" height="200px" alt="Front_End">
+                    <h3>Desarrollador jr Front-End</h3>
+                </article>
+
+                <article class="col-md-4">
+                    <img src="img/Back_End.png" width="240px" height="200px" alt="Back_End">
+                    <h3>Desarrollador jr Back-End</h3>
+                </article>
+
+                <article class="col-md-4">
+                    <img src="img/Electrónica.png" width="240px" height="200px" alt="Electrónica">
+                    <h3>Electrónica</h3>
+                </article>
+
+                <article class="col-md-4">
+                    <img src="img/Asesoría_Académica.png" width="240px" height="200px" alt="Asesoría Académica">
+                    <h3>Asesoría Académica</h3>
+                </article>
+
+                <article class="col-md-4">
+                    <img src="img/Ventas.png" width="240px" height="200px" alt="Ventas">
+                    <h3>Ventas</h3>
+                </article>
+
+                <article class="col-md-4">
+                    <img src="img/Marketing_Digital.png" width="240px" height="200px" alt="Marketing Digital">
+                    <h3>Marketing Digital</h3>
+                </article>
+
+            </div>
+            </div>
+        </section>
+        <section id="About_me">
+            <div class=" container text-center">
+            <!--Antes de crear columnas deemos crear las filas la cuales en bootstrap son la clase row-->
+            <div class="row">
+                <!--Creacion de columnas-->
+                <article class="col-md-6 About_me">
+
+                    <a name="About_me"></a>
+                    <h2>Sobre mí</h2>
+                    <p>
+                        Estudiante de Ingeniería Electrónica y analista de sistemas con experiencia laboral en áreas
+                        administrativas y comerciales. Competencias en manejo de herramientas ofimáticas, electrónica,
+                        servicio al cliente, desarrollo Front-End y Back-End con ayuda de marketing digital;
+                        realizando las labores con alto sentido de responsabilidad y compromiso. Habilidades para
+                        trabajar en equipo y adaptabilidad a diferentes entornos laborales.
+                    </p>
+
+                </article>
+                <article class="col-md-6 text-center">
+
+                    <img src="img/foto_personal2.png" data-aos="zoom-in-up" data-aos-duration="1000"> alt="Foto personal">
+
+                </article>
+
+                <div class="columns download">
+                    <p>
+                      <a href="img/CV.pdf" class="button" download><i class="fa fa-download"></i>Descargar CV</a>
+                    </p>
+                 </div>
+
+            </div>
+            </div>
+        </section>
+      
+        <section id="experience">
+            <div class="container text-center">
+                <div class="row"> 
+            <h2 style="color:white ">Experiencia</h2>
+            <img src="img/Experiencia.png"  alt="Experiencia">
+        </div>
+        </div>
+        </section>
+
+
+        <section id="studies">
+            <div class="container text-center">
+                <div class="row"> 
+            <h2 style="color:white ">Estudios</h2>
+            <img src="img/Estudios.png"  alt="Estudios">
+        </div>
+        </div>
+            
+        </section>
+
+        <section id="herramientas">
+            <div class="container text-center">
+                <div class="row"> 
+            <h2 style="color:white ">Herramientas</h2>
+            <img src="img/herramientas.png"  alt="Lenguajes de programación">
+        </div>
+        </div>
+            
+
+        </section>
+
+        <section id=" portafolio"">
+            <div class="container-fluid text-center">
+            <!--Antes de crear columnas deemos crear las filas la cuales en bootstrap son la clase row-->
+            <div class="row">
+                <!--Creacion de columnas-->
+                <h2>Portafolio</h2>
+
+                <article class="col-md-4 text-center">
+                    <a href="https://cavendano912.wixsite.com/comlec" target="_blank"><img src="img/comlec.png" width="400px" height="400px" alt="COMLEC"></a>
+                    <a href="https://cavendano912.wixsite.com/comlec" target="_blank"><h2 style="color:white">COMLEC</h2></a>
+                </article>
+
+                <article class="col-md-4 text-center">
+                    <a href="https://sites.google.com/view/jrsolutionssa/p%C3%A1gina-principal" target="_blank"><img src="img/jrsolutions.png" width="400px" height="400px" alt="JRSolutions"></a>
+                    <a href="https://sites.google.com/view/jrsolutionssa/p%C3%A1gina-principal" target="_blank"><h2 style="color:white">JR Solutions</h2></a>
+                </article>
+
+                <article class="col-md-4 text-center">
+                    <img src="img/omm.png" width="400x" height="400px" alt="Back_End">
+                    <h2 style="color:white">OMM</h2>
+
+                </article>
+
+
+            </div>
+            </div>
+        </section>
+
+        <section id="Contacto">
+            <div class="container text-center"> 
+            <h2>Contacto</h2>
+            <!--Formulario-->
+            <div class="container text-center" id="for">
+             
+            <form action="" method="post">
+                 <div class="form-group">
+                      <label for="txtNombre">Nombre: <span class="rojo">*</span></label>
+                      <!--El required es cuando es obligatorio llenar en el formulario-->
+                      <input type="text" name="txtNombre" id="txtNombre" required>
+                 </div>
+
+                 <div class="form-group">
+                    <label for="txtTelefono">Telefono</label>
+                    <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="+Pais (Area) 9999-9999">
+               </div>
+
+                 <div class="form-group">
+                      <label for="txtCorreo">Email: <span class="rojo">*</span></label>
+                      <input type="email" name="txtCorreo" id="txtCorreo" required>
+                 </div>
+
+                 <div class="form-group">
+                      <label for="txtMensaje">Mensaje <span class="rojo">*</span></label>
+                      <textarea name="txtMensaje" id="txtMensaje" cols="30" rows="10"></textarea>
+                 </div>
+              
+                 <div class="form-group">
+                      <button type="submit" id="btnEnviar" name="btnEnviar" class="btn">ENVIAR</button>
+                      <!--
+                           <button type="reset">Limpia el formulario</button>
+                           <button type="button">Otra cosa</button>
+  
+                      -->
+                 </div>
+  
+            </form>
+
+        </div>
+    </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="redes mx-auto">
+            <a href="https://wa.me/message/VOAGZZH6IL7CN1" title="Enviame un mensaje por Whatsapp" target="_blank">
+                 <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/jhon-javier-rojas-avenda%C3%B1o-25781b242?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BH0kOgiRiT%2Fanu7zP4oYMDA%3D%3D" title="Sigueme en likedin" target="_blank">
+                 <i class="fa-brands fa-linkedin"></i>
+            </a>
+       </div>
+    </footer>
+
+   
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        </script>
+    <script src="js/functions.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+     <!--Inicie la libreria AOS de javascript-->
+     <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
+
+<!--  imagen de fondo
+header{
+    background: url(../img/);
+}
+
+en
+
+
+
+
+-->

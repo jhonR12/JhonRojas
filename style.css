@@ -1,0 +1,248 @@
+
+
+body{
+    background: #000;
+}
+header{
+    background: url(../img/);
+}
+
+p{
+    font-size:x-large;
+}
+
+
+.bg-portafolio{
+    background-color: #000;
+
+}
+
+.bg-portafolio ul li a{
+    color: #ffff;
+    font-size:xx-large;
+}
+
+.bg-portafolio ul li a:hover{
+    color: rgb(161, 14, 14);
+}
+
+
+.bg-portafolio h1 p{
+    color: #ffff;
+}
+
+#hero{
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+#hero h1{
+    color: white; 
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+
+#hero p{
+    color: azure; 
+    font-size: 22px;
+}
+
+
+header{
+    width: 100%;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+#welcome{
+    width: 100%;
+    position: relative;
+    background: white ;
+    padding: 140px 0;
+}
+
+#Services{
+    margin-bottom: 120px;
+    padding-top: 150px;
+}
+
+#About_me{
+    margin-bottom: 120px;
+    padding-top: 150px;
+    
+}
+
+#About_me h2{
+    color: #ffff;
+}
+#About_me p{
+    color: #ffff;
+}
+#Services h2{
+    margin-bottom: 70px;
+    font-size: 50px;
+    color: #ffff;
+}
+
+#Services article{
+    margin-bottom: 70px;
+}
+
+#Services h3{
+    margin-top: 40px;
+    color: #ffff;
+}
+
+#experience h2{
+    margin-bottom: 70px;
+    font-size: 50px;
+    color: #ffff;
+}
+
+
+#experience article{
+    color: #ffff;
+ }
+
+#studies{
+    margin-bottom: 120px;
+}
+#studies h2{
+    margin-bottom: 70px;
+    font-size: 50px;
+    color: #ffff;
+}
+#studies h3{
+    color: #000;
+}
+#studies p{
+    color: #000;
+}
+#studies #uc{
+    background-color:#11E7DA;
+}
+#studies #sena{
+    background-color:#DF5F5F;
+}
+
+
+#studies #ud{
+    background-color:#1AEE2F;
+}
+#studies #idic{
+    background-color:#E2F40E;
+}
+
+#herramientas{
+    margin-bottom: 120px;
+}
+
+
+
+#portafolio{
+    margin-bottom: 120px;
+}
+
+#portafolio h2{
+    margin-bottom: 70px;
+    font-size: 50px;
+    color: #ffff;
+}
+.contacto{
+    color: white;
+    margin-top: auto;
+}
+
+
+.presentacion{
+    padding-top: 150px;
+}
+
+.about_me{
+    padding-top: 150px;
+    
+}
+
+h2 {
+    font-size: 24px;
+    color: white;
+}
+
+
+form{
+    width: 600px;
+    margin: auto;
+    display: block;
+    border: 1px solid #eee;
+    padding: 15px;
+    border-radius: 8px;
+}
+form input[type=text],form input[type=email],form input[type=tel],form input[type=date], form select, form textarea{
+   border: 1px solid red;
+   border-radius: 8px;
+   display: block;
+   width: 100%;
+   height: 22px;
+}
+form textarea{
+    height: 100px;
+}
+.form-group{
+    margin: 10px 0px;
+}
+.btn{
+    padding: 10px 15px;
+    border: 0px;
+    margin:auto; /*Centra elementos*/
+    display: block; /*Centra elementos*/
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: red;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+
+footer{
+    /*Centramos los elementos dentro de footer*/
+    width: max-content;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer i{
+    font-size: 35px;
+    border: 1px solid;
+    height: 48px;
+    width: 58px;
+    text-align: center;
+    padding: 10px 0 0 0;
+    border-radius: 80px;
+    margin: 0 15px;
+    color: white;
+}
+
+@media(max-width: 460px){
+    /*Aplica cuando el ancho del dispositivo es hasta 460px*/
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 14px;
+    }
+    
+}
+
+#for{
+    color: white;
+    background-color: black;
+}
